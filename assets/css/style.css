@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    max-height: 100vh;
+    background-color: #0d2133;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.intro h1 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 42px;
+}
+
+.intro {
+    line-height: 32px;
+    font-size: 26px;
+}
+
+div .personagens {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 80px;
+}
+
+a {
+    color: white;
+}
+
+a img {
+    width: 300px;
+    height: 200px;
+}
+
+.personagens h2 {
+    margin-bottom: 10px;
+}
+
+.personagens div {
+    transition: filter .3s;
+}
+
+.personagens div:hover {
+    filter: opacity(40%);
+}
+
+.personagens h2 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

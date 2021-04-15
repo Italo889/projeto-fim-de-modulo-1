@@ -1,0 +1,27 @@
+h1 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 42px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn span{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.intro-fase {
+    background-color: #0d2133;
+}
+
+.botao-padre a {
+    margin-top: 60px;
+}
